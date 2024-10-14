@@ -10,7 +10,6 @@ const Tours = () => {
 
       <div className="section-center featured-center">
         {tours.map((tour) =>{
-          const {id, image, location, title, date, text, duration, cost} = tour
 
           return (
             <Tour key = {tour.id} {...tour}/>

@@ -11,7 +11,6 @@ const Footer = () => {
        
       <ul className="footer-icons">
         {socialLinks.map((link) =>{
-          const {id, href ,icon } = link
           return (
            <SocialLinks itemClass='footer-icon' {...link} key= {link.id}/>
           )

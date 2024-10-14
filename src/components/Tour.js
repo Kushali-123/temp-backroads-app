@@ -1,5 +1,5 @@
 import React from 'react'
-import { tours } from '../Data'
+
 
 
 const Tour = ({ image, location, title, date, text, duration, cost }) => {
